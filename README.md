@@ -3,7 +3,7 @@
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue?logo=kotlin&logoColor=white)](https://kotlinlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![API](https://img.shields.io/badge/API-21%2B-orange.svg)](#)
-[![](https://jitpack.io/v/Excelsior-Technologies-Community/RichMediaNotificationsKit.svg)](https://jitpack.io/#Excelsior-Technologies-Community/RichMediaNotificationsKit)
+[![](https://jitpack.io/v/Excelsior-Technologies-Community/BiometricAuthKit.svg)](https://jitpack.io/#Excelsior-Technologies-Community/BiometricAuthKit)
 
 **Biometric Authentication Library** is a production-ready Android library that provides secure and customizable biometric authentication with fingerprint, face unlock, and PIN fallback support. Features a beautiful custom UI, comprehensive error handling, and enterprise-grade security.
 
@@ -47,7 +47,7 @@ allprojects {
 
 ```gradle
 dependencies {
-    implementation 'com.github.Excelsior-Technologies-Community:BiometricAuthKit:1.0.2'
+       implementation 'com.github.Excelsior-Technologies-Community:BiometricAuthKit:1.0.0'
 }
 ```
 
