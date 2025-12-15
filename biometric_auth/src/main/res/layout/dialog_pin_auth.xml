@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:id="@+id/pinDialogContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/default_dialog_background"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/pinDialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="@string/pin_dialog_title"
+            android:textColor="@color/default_title_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Status/Error Text -->
+        <TextView
+            android:id="@+id/pinStatusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:minHeight="18dp"
+            android:text=""
+            android:textColor="@color/default_subtitle_color"
+            android:textSize="12sp" />
+
+        <!-- PIN Indicators -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/pinIndicator1"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pin_indicator_background" />
+
+            <View
+                android:id="@+id/pinIndicator2"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pin_indicator_background" />
+
+            <View
+                android:id="@+id/pinIndicator3"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pin_indicator_background" />
+
+            <View
+                android:id="@+id/pinIndicator4"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/pin_indicator_background" />
+
+        </LinearLayout>
+
+        <!-- Number Pad -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:columnCount="3"
+            android:rowCount="4">
+
+            <!-- Row 1: 1, 2, 3 -->
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:text="2"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:text="3"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <!-- Row 2: 4, 5, 6 -->
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:text="4"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:text="6"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <!-- Row 3: 7, 8, 9 -->
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:text="7"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:text="8"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:text="9"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <!-- Row 4: Empty, 0, Delete -->
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp" />
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/btnDelete"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="Delete"
+                android:src="@drawable/ic_backspace" />
+
+        </GridLayout>
+
+        <!-- Cancel Button -->
+        <Button
+            android:id="@+id/pinCancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:padding="12dp"
+            android:text="@string/default_cancel_button"
+            android:textAllCaps="false"
+            android:textColor="@color/default_button_color" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

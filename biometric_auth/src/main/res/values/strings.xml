@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default Dialog Texts -->
+    <string name="default_dialog_title">Biometric Authentication</string>
+    <string name="default_dialog_subtitle">Verify your identity</string>
+    <string name="default_dialog_description">Place your finger on the sensor or look at the camera</string>
+
+    <!-- Button Texts -->
+    <string name="default_cancel_button">Cancel</string>
+    <string name="default_pin_button">Use PIN Instead</string>
+
+    <!-- Status Messages -->
+    <string name="status_scanning">Scanning</string>
+    <string name="status_success">Success!</string>
+    <string name="status_failed">Not recognized</string>
+    <string name="status_error">Error occurred</string>
+    <string name="status_lockout">Too many attempts</string>
+
+    <!-- PIN Dialog -->
+    <string name="pin_dialog_title">Enter PIN</string>
+    <string name="pin_dialog_subtitle">Enter your %d-digit PIN</string>
+    <string name="pin_attempts_remaining">Attempts remaining: %d</string>
+    <string name="pin_incorrect">Incorrect PIN</string>
+    <string name="pin_correct">PIN Correct!</string>
+    <string name="pin_locked">Too many attempts. Try again in %d seconds</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_biometric">No biometric authentication available</string>
+    <string name="error_not_enrolled">Please enroll fingerprint or face in device settings</string>
+    <string name="error_hardware_unavailable">Biometric hardware unavailable</string>
+    <string name="error_lockout_temporary">Too many attempts. Please try again later</string>
+    <string name="error_lockout_permanent">Biometric locked. Use PIN or device credentials</string>
+</resources>

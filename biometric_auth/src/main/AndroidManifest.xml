@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Required permission for biometric authentication -->
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <!-- Fallback for older devices -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <!-- Optional: Declare that the app uses biometric features -->
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.biometrics"
+        android:required="false" />
+
+</manifest>

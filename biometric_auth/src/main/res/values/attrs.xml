@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Complete XML Attributes for Biometric Auth Library
+        All aspects of the authentication dialogs can be customized through these attributes
+    -->
+
+    <declare-styleable name="BiometricAuthView">
+
+        <!-- =============== DIALOG APPEARANCE =============== -->
+
+        <!-- Background color of the biometric dialog -->
+        <attr name="dialogBackgroundColor" format="color" />
+
+        <!-- Main title text shown at top of dialog -->
+        <attr name="dialogTitle" format="string" />
+
+        <!-- Color of the title text -->
+        <attr name="dialogTitleColor" format="color" />
+
+        <!-- Subtitle text shown below title -->
+        <attr name="dialogSubtitle" format="string" />
+
+        <!-- Color of the subtitle text -->
+        <attr name="dialogSubtitleColor" format="color" />
+
+        <!-- Description text explaining what to do -->
+        <attr name="dialogDescription" format="string" />
+
+        <!-- Color of the description text -->
+        <attr name="dialogDescriptionColor" format="color" />
+
+        <!-- App icon shown at top of dialog (optional) -->
+        <attr name="appIcon" format="reference" />
+
+
+        <!-- =============== BIOMETRIC ICONS =============== -->
+
+        <!-- Icon to display for fingerprint authentication -->
+        <attr name="fingerprintIcon" format="reference" />
+
+        <!-- Icon to display for face authentication -->
+        <attr name="faceIcon" format="reference" />
+
+
+        <!-- =============== STATUS COLORS =============== -->
+
+        <!-- Color used for success states (checkmark, success messages) -->
+        <attr name="successColor" format="color" />
+
+        <!-- Color used for error states (error icon, error messages) -->
+        <attr name="errorColor" format="color" />
+
+        <!-- Color used for neutral/scanning states -->
+        <attr name="neutralColor" format="color" />
+
+
+        <!-- =============== BUTTON CUSTOMIZATION =============== -->
+
+        <!-- Text for cancel button -->
+        <attr name="cancelButtonText" format="string" />
+
+        <!-- Color of cancel button text -->
+        <attr name="cancelButtonColor" format="color" />
+
+        <!-- Text for "Use PIN Instead" button -->
+        <attr name="pinButtonText" format="string" />
+
+        <!-- Color of PIN button text -->
+        <attr name="pinButtonColor" format="color" />
+
+
+        <!-- =============== AUTHENTICATION SETTINGS =============== -->
+
+        <!-- Enable fingerprint authentication -->
+        <attr name="enableFingerprint" format="boolean" />
+
+        <!-- Enable face authentication -->
+        <attr name="enableFaceAuth" format="boolean" />
+
+        <!-- Enable PIN fallback option -->
+        <attr name="enablePinFallback" format="boolean" />
+
+        <!-- Length of PIN (typically 4 or 6 digits) -->
+        <attr name="pinLength" format="integer" />
+
+        <!-- Maximum number of PIN attempts before lockout -->
+        <attr name="maxPinAttempts" format="integer" />
+
+
+        <!-- =============== ANIMATION SETTINGS =============== -->
+
+        <!-- Enable/disable animations in dialogs -->
+        <attr name="enableAnimations" format="boolean" />
+
+
+        <!-- =============== TIMEOUT SETTINGS =============== -->
+
+        <!-- Timeout for biometric authentication in seconds -->
+        <attr name="biometricTimeoutSeconds" format="integer" />
+
+        <!-- Lockout duration for PIN after max attempts (seconds) -->
+        <attr name="pinLockoutSeconds" format="integer" />
+
+    </declare-styleable>
+
+</resources>

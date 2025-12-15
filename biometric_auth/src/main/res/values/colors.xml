@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default Color Palette -->
+    <color name="default_dialog_background">#FFFFFF</color>
+    <color name="default_title_color">#212121</color>
+    <color name="default_subtitle_color">#757575</color>
+    <color name="default_description_color">#9E9E9E</color>
+
+    <!-- Status Colors -->
+    <color name="default_success_color">#4CAF50</color>
+    <color name="default_error_color">#F44336</color>
+    <color name="default_neutral_color">#2196F3</color>
+
+    <!-- Button Colors -->
+    <color name="default_button_color">#2196F3</color>
+    <color name="default_button_text">#FFFFFF</color>
+
+    <!-- PIN Indicator Colors -->
+    <color name="pin_indicator_active">#2196F3</color>
+    <color name="pin_indicator_inactive">#E0E0E0</color>
+
+    <!-- Common Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
