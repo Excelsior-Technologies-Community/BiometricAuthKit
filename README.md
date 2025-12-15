@@ -11,8 +11,8 @@
 
 ## 📸 Preview
 
-<img src="app/src/main/assets/img.pn"
-       alt="Rich Media Notification Library Demo" 
+<img src="app/src/main/assets/img.png"
+       alt="Biometric Auth Kit Library Demo" 
       height="320"/>
 
 ---
